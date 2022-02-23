@@ -1,0 +1,36 @@
+body {
+    background: #121212;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.calculator {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: #17BEBB;
+    border: 2px solid white;
+}
+
+.display {
+    height: 64px;
+    padding: 50px 10px;
+    font-size: 64px;
+    text-align: right;
+}
+
+.keypad {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #EF3E36;
+}
+
+button {
+    width: 75px;
+    height: 75px;
+    margin: 25px;
+    font-size: 50px;
+    border-radius: 10px;
+}
